@@ -1,0 +1,20 @@
+.texto {
+    background-color: rgb(223, 193, 154);
+    color: rgb(59, 52, 124);
+    text-align: center;
+}
+
+@mixin mt ($valor) {
+    margin-top: $valor;
+}
+.parrafo {
+    @include mt(2)
+}
+
+@mixin textoParrafo ($nombre, $propiedad, $valor) {
+    .#{$nombre} {
+        @extend .texto;
+        #{$propiedad}: $valor
+    }
+}
+@include textoParrafo(mt, margin-top, 10px)
