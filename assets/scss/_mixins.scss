@@ -1,7 +1,8 @@
 .texto {
-    background-color: rgb(223, 193, 154);
+    background-color: none;
     color: rgb(59, 52, 124);
     text-align: center;
+    font-size: 4rem;
 }
 
 @mixin mt ($valor) {
