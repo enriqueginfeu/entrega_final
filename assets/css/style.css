@@ -1,14 +1,8 @@
-.texto, .mt {
-  background-color: none;
-  color: #3b347c;
+.titulo {
   text-align: center;
-  font-size: 4rem; }
-
-.parrafo {
-  margin-top: 2; }
-
-.mt {
-  margin-top: 10px; }
+  color: #1b80a1;
+  font-size: 3rem;
+  margin-top: 20px; }
 
 * {
   margin: 0;
@@ -19,3 +13,12 @@ body {
   min-height: 100vh;
   background-image: linear-gradient(#ecf5f5, #d0dfec);
   font-family: 'Poppins', sans-serif; }
+
+.sombras {
+  -webkit-box-shadow: -1px 10px 15px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 10px 15px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 10px 15px 3px rgba(0, 0, 0, 0.75); }
+
+.titulo_principal {
+  font-size: 3.5rem;
+  text-align: center; }

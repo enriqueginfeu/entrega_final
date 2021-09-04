@@ -1,21 +1,9 @@
-.texto {
-    background-color: none;
-    color: rgb(59, 52, 124);
+@mixin font {
+    color: rgb(27, 128, 161);
+    font-size: 3rem;
+    margin-top: 20px;
+}
+.titulo {
     text-align: center;
-    font-size: 4rem;
+    @include font;
 }
-
-@mixin mt ($valor) {
-    margin-top: $valor;
-}
-.parrafo {
-    @include mt(2)
-}
-
-@mixin textoParrafo ($nombre, $propiedad, $valor) {
-    .#{$nombre} {
-        @extend .texto;
-        #{$propiedad}: $valor
-    }
-}
-@include textoParrafo(mt, margin-top, 10px)
