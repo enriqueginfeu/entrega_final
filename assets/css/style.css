@@ -15,7 +15,8 @@ body {
   font-family: 'Poppins', sans-serif; }
 
 .logo {
-  filter: grayscale(20%); }
+  filter: grayscale(20%); 
+}
 
 .logo:hover {
   filter: grayscale(0%); }
