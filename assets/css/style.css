@@ -29,3 +29,12 @@ body {
 .titulo_principal {
   font-size: 3.5rem;
   text-align: center; }
+
+  .precio {
+    font-size: 1.3rem;
+    text-decoration: line-through;
+  }
+
+  .precio_rebaja {
+    font-size: 1.9rem;
+  }

@@ -102,7 +102,7 @@
         </section>
         <!-- FORMULARIO -->
         <section>
-            <form class="form-control was-validated" novalidate>
+            <form class="was-validated" novalidate>
                     <label for="nombre" class="form-label">Nombre:</label>
                     <input class="form-control" type="text" placeholder="Ingrese su Nombre" id="nombre" required pattern="[A-Za-z]+">
                     <div class="valid-feedback">
@@ -133,8 +133,8 @@
                     <br>
                     Comentario:
                     <br>
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <div class="form-floating was-validated" novalidate>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required></textarea>
                         <label for="floatingTextarea"></label>
                     </div>
                     <br>
