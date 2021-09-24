@@ -30,6 +30,11 @@ body {
   font-size: 3.5rem;
   text-align: center; }
 
+.precio_normal {
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
   .precio {
     font-size: 1.3rem;
     text-decoration: line-through;
