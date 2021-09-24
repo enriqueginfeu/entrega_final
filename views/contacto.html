@@ -102,23 +102,20 @@
         </section>
         <!-- FORMULARIO -->
         <section>
-            <form class="was-validated" novalidate>
+            <form>
                     <label for="nombre" class="form-label">Nombre:</label>
-                    <input class="form-control" type="text" placeholder="Ingrese su Nombre" id="nombre" required pattern="[A-Za-z]+">
+                    <input class="form-control" type="text" id="nombre" placeholder="Ingrese su Nombre" required pattern="[A-Za-z]+">
                     <div class="valid-feedback">
-                        Looks good!
                     </div>
                     <br>
-                    <label for="apellido">Apellido:</label>
-                    <input class="form-control" type="text" placeholder="Ingrese su Apellido" id="apellido" required pattern="[A-Za-z]+"> 
+                    <label for="apellido" class="form-label">Apellido:</label>
+                    <input class="form-control" type="text" id="apellido" placeholder="Ingrese su Apellido" required pattern="[A-Za-z]+"> 
                     <div class="valid-feedback">
-                        Looks good!
                     </div>
                     <br>
-                    <label for="mail">Ingrese su mail</label>   
-                    <input class="form-control" type="email" placeholder="ingrese su email" id="mail" required>
+                    <label for="mail" class="form-label">Ingrese su mail</label>   
+                    <input class="form-control" type="email" id="mail" placeholder="ingrese su email" required>
                     <div class="valid-feedback">
-                        Looks good!
                     </div>
                     <br>
                     <select class="form-select" aria-label="Default select example" required>
@@ -133,7 +130,7 @@
                     <br>
                     Comentario:
                     <br>
-                    <div class="form-floating was-validated" novalidate>
+                    <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required></textarea>
                         <label for="floatingTextarea"></label>
                     </div>
