@@ -51,7 +51,7 @@
                 </ul>
             </div>
             <div class="dropdown d-md-none">
-                <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="btn btn-outline-primary" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fas fa-bars"></i>
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -99,18 +99,18 @@
             </div>
         </section>
         <section>
-            <div class="form-control">
-                    <label for="nombre">Nombre:</label>
-                    <input class="form-control" type="text" placeholder="Ingrese su Nombre" id="nombre">
+            <form>
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input class="form-control" type="text" placeholder="Ingrese su Nombre" id="nombre" required>
                     <br>
-                    <label for="apellido">Apellido:</label>
-                    <input class="form-control" type="text" placeholder="Ingrese su Apellido" id="apellido"> 
+                    <label for="apellido" class="form-label">Apellido:</label>
+                    <input class="form-control" type="text" placeholder="Ingrese su Apellido" id="apellido" required> 
                     <br>
-                    <label for="mail">Ingrese su mail</label>   
-                    <input class="form-control" type="email">
+                    <label for="mail" class="form-label">Ingrese su mail</label>   
+                    <input class="form-control" type="email" required>
                     <br>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>dispositivo</option>
+                    <select class="form-select" aria-label="Default select example" required>
+                        <option selected disabled value="">dispositivo</option>
                         <option value="1">Laptop</option>
                         <option value="2">Escritorio</option>
                         <option value="3">Smartphone</option>
@@ -122,12 +122,18 @@
                     Comentario:
                     <br>
                     <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" required></textarea>
                         <label for="floatingTextarea"></label>
                     </div>
                     <br>
-                    <button class="btn btn-outline-primary btn-sm" type="submit">Enviar</button>
-                    <input class="btn btn-outline-primary btn-sm" type="reset" value="Limpiar Formulario">
+                    <div class="text-dark mt-1 mb-3">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                        ¿Desea Recibir el Newsletter?
+                        </label>
+                    </div>
+                    <button class="btn btn-outline-primary btn-sm mb-3" type="submit">Enviar</button>
+                    <input class="btn btn-outline-primary btn-sm mb-3" type="reset" value="Limpiar Formulario">
                 </form>
             </div>
         </section>
@@ -142,10 +148,9 @@
                 Core Ltd  2021
             </div>
             <div class="col-4 text-primary">
-                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                <label class="form-check-label" for="defaultCheck1">
-                ¿Desea Recibir el Newsletter?
-                </label>
+                <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com/?hl=es" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/?lang=es" target="_blank"><i class="fab fa-twitter-square"></i></a>
             </div>
                 <div class="col-4 d-none d-md-block">
                         <a href="#">Privacidad</a>
