@@ -18,6 +18,10 @@ body {
   filter: grayscale(20%); 
 }
 
+.parrafo {
+  font-size: 2rem;
+}
+
 .logo:hover {
   filter: grayscale(0%); }
 
@@ -47,6 +51,12 @@ body {
   @media(max-width: 768px) {
     .titulo_principal {
       font-size: 2rem;
+    }
+    .titulo {
+      font-size: 2rem;
+    }
+    .parrafo {
+      font-size: 1.5rem;
     }
   }
 
